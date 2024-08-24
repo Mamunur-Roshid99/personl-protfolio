@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamunur Roshid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- ............ Start Of Header Site.................. -->
+     <header>
+    <div class="container">
+        <div class="logo">
+            <span style="color: aqua;">Mam</span>un
+        </div>
+      <nav class="navList">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <i class='bx bx-menu' id="menu-icon"></i>
+    </div>  
+     </header>
+
+    <!-- ............ Home Section .................. -->
+     <section id="home" class="home">
+      
+      <div class="home-content">
+        <h1>Mamunur Roshid</h1>
+        <div class="change-text">
+          <h3>I am a</h3>
+          <h3>
+            <span class="word">Front-End Developer</span>
+          </h3>
+        </div>
+
+        <p>Passionate Front-End Developer with a keen eye for design and a love for crafting intuitive user experiences. I've honed my skills in HTML, CSS, JavaScript to build engaging web applications. From responsive layouts to complex interactive features, I thrive on turning design concepts into reality.</p>
+
+        <div class="info-box">
+          <a href="https://www.linkedin.com/in/mamunur-roshid99/" target="_blank" class="bx bxl-linkedin-square">Linkedin</a>
+          <a href="https://x.com/Mamun56136" target="_blank" class="bx bxl-twitter">Twitter</a>
+          <a onclick="sendToGmail()" href="mailto:web.dev.roshidmamunur348@gmail.com" class="bx bxs-envelope">Email</a>
+        </div>
+
+      </div>
+      <img src="images/mamun.png" alt="">
+
+     </section>
+
+     <!-- ..............About Section..................... -->
+
+     <section id="about" class="about">
+      <h1>About Me</h1>
+      
+      <div class="about-content">
+        <img src="images/mamun1.png" alt="">
+        <div class="about-info">
+        <p>Hello! I’m <b style="color: white;">Mamunur Roshid</b>, a passionate front-end developer based in Bangladesh. With a love for crafting intuitive and visually engaging user experiences, I specialize in turning complex ideas into clean, functional designs.From the moment I wrote my first line of code, I knew front-end development was my calling. I’m driven by the challenge of blending aesthetics with functionality to create seamless, user-centric websites and applications. </p>
+       <a onclick="sendToWhatsapp()" href="mailto:web.dev.roshidmamunur348@gmail.com" class="bx bxs-envelope">Contact me</a>
+       </div>
+      </div>
+
+     </section>
+     <!-- ..............Skills Section..................... -->
+
+    <section id="skills" class="skills">
+      <h1>My Skills</h1>
+    <div class="skill-info">
+      <div class="html">
+        <img src="images/html.png" alt="">
+      </div>
+      <div class="css">
+        <img src="images/css.png" alt="">
+      </div>
+      <div class="js">
+        <img src="images/js.png" alt="">
+      </div>
+    </div>
+     </section>
+
+     <!-- ..............Project Section..................... -->
+      <section id="projects" class="project">
+        <h1>My Projects</h1>
+        <div class="project-info">
+          <div class="project1">
+            <img src="images/project1.jpg" alt="" style="width: 100%;">
+            <i class='bx bxl-javascript'><b>Spotify.</b></i>
+            <a href="https://github.com/Mamunur-Roshid99/Spotify-clone-app" target="_blank" class="bx bx-code-alt">Code</a>
+            <a href="https://soptify-clone.netlify.app/" target="_blank" class="bx bxs-package">Live</a>
+          </div>
+          <div class="project2">
+            <img src="images/project2.jpg" alt="" style="width: 100%;"">
+            <i class='bx bxl-javascript'>Admin Dashboard.</i>
+            <a href=" https://github.com/Mamunur-Roshid99/Admin-Dashboard" target="_blank" class="bx bx-code-alt">Code</a>
+            <a href="https://mamun-admin-dashboard.netlify.app/" target="_blank" class="bx bxs-package">Live</a>
+          </div><br>
+          <div class="project3">
+            <img src="images/project3.jpg" alt="" style="width: 100%;"">
+            <i class='bx bxl-javascript'>Calculator.</i>
+            <a href="https://github.com/Mamunur-Roshid99/calculator" target="_blank" class="bx bx-code-alt">Code</a>
+            <a href="https://mamun-calculator.netlify.app/" target="_blank" class="bx bxs-package">Live</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ..............Contact Section..................... -->
+      <section id="contact" class="contact">
+        <h1>Contact With Me</h1>
+
+        <form action="https://formsubmit.co/45484fc29a9d2b86d1e7968038bdf120" method="POST">
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="email" name="email"  placeholder="Your Email">
+          <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <div class="btn-box formBtn">
+            <button  type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- ..............Footer Section..................... -->
+       <footer>
+        <p>Copyright © 2024 - All right reserved by Mamunur Roshid</p>
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/mamunur-roshid99/" target="_blank" class="bx bxl-linkedin-square"></a>
+          <a href="https://x.com/Mamun56136" target="_blank" class="bx bxl-twitter"></a>
+          <a onclick="sendToGmail()" href="mailto:web.dev.roshidmamunur348@gmail.com" class="bx bxs-envelope"></a>
+        </div>
+       </footer>
+
+
+
+     
+
+       
+    <script src="js/script.js"></script>
+</body>
+</html>
