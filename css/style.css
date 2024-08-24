@@ -564,7 +564,6 @@ footer p {
     #menu-icon {
         display: block;
         transition: all .4s ease;
-        margin-left: 60%;
     }
     #menu-icon.bx-x {
         transform: rotate(-180deg);
