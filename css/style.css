@@ -113,7 +113,6 @@ header {
     margin-top: 20px;
     align-items: center;
     display: flex;
-    flex-direction: row;
     gap: 4em;
 }
 
@@ -184,6 +183,11 @@ header {
     border-radius: 50%;
     width: 350px;
     margin: 50px 100px;
+}
+
+.img1 {
+    width: 2%;
+    opacity: 0;
 }
 
 /* ...............about section................. */
@@ -326,7 +330,6 @@ header {
 .project-info {
     margin-top: 70px;
     text-align: center;
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .project1 img {
@@ -577,7 +580,7 @@ footer p {
         z-index: 2;
         left: 0;
         flex-direction: column;
-        background: var(--bg-color);
+        background: var(--secon-bg-color);
         text-align: left;
         padding: 0 5%;
         transition: all .45s ease;
@@ -597,6 +600,17 @@ footer p {
     }
     .home-content p{
         margin-top: 20px;
+    }
+    .home img {
+        width: 1%;
+        opacity: 0;
+    }
+    .img1 {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 105px;
+    margin-left: 12%;
+    opacity: 1;
     }
     .info-box a {
         margin-top: 20px;
@@ -620,11 +634,22 @@ footer p {
         padding-bottom: 1rem;
         font-size: 1rem;
     }
+    .project-info  {
+        display: inline-block;
+        align-items: center;
+    }
     .project1 {
-        margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    }
+    .project2 {
+    width: 300px;
+    height: 300px;
     }
     .project3 {
-        margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
     }
     .contact form {
         width: 85%;
@@ -633,5 +658,8 @@ footer p {
         display: flex;
         text-align: center;
         flex-direction: column;
+    }
+    .container {
+        max-width: 50vb;
     }
 }
