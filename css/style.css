@@ -589,6 +589,9 @@ footer p {
     .navList.active {
         opacity: 1;
     }
+    header {
+        position: relative;
+    }
     .home {
         display: flex;
         flex-direction: column;
