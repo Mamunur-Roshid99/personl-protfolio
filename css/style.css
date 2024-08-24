@@ -560,7 +560,7 @@ footer p {
 }
 
 /* moblie view */
-@media(max-width:768px) {
+@media screen and (max-width: 768px) {
     #menu-icon {
         display: block;
         transition: all .4s ease;
